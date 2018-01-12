@@ -1,6 +1,6 @@
 FROM i386/ubuntu:14.04
 
-MAINTAINER Ryo Ota <nwtgck@gmail.com>
+LABEL maintainer="Ryo Ota <nwtgck@gmail.com>"
 
 # ==== Start Installation of requirements ====
 RUN apt update && apt install -y \
